@@ -14,3 +14,5 @@ elif compsNum == 2:
 else:
     compsChoice = "Siccors"
 
+#Added the users ability to choose
+userChoice = input("What would you like: Rock, Paper, or Scissor")
