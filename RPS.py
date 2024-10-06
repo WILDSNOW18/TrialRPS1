@@ -19,4 +19,10 @@ userChoice = input("What would you like: Rock, Paper, or Scissor")
 
 if userChoice == compsChoice:
     print("Tie")
+
+#Added if the computer or the player chooses rock
+if userChoice == "Rock" and compsChoice == "Paper":
+    print("Lose")
+if userChoice == "Paper" and compsChoice == "Rock":
+    print("Win")
     
