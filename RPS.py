@@ -16,3 +16,7 @@ else:
 
 #Added the users ability to choose
 userChoice = input("What would you like: Rock, Paper, or Scissor")
+
+if userChoice == compsChoice:
+    print("Tie")
+    
