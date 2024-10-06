@@ -26,3 +26,7 @@ if userChoice == "Rock" and compsChoice == "Paper":
 if userChoice == "Paper" and compsChoice == "Rock":
     print("Win")
     
+if userChoice == "Siccors" and compsChoice == "Paper":
+    print("Win")
+if userchoice == "Siccors" and compsChoice == "Rock":
+    print("Loose")
