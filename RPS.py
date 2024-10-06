@@ -12,21 +12,28 @@ elif compsNum == 2:
     compsChoice = "Paper"
 
 else:
-    compsChoice = "Siccors"
+    compsChoice = "Scissors"
 
 #Added the users ability to choose
-userChoice = input("What would you like: Rock, Paper, or Scissor")
+userChoice = input("What would you like: Rock, Paper, or Scissors")
 
 if userChoice == compsChoice:
     print("Tie")
 
 #Added if the computer or the player chooses rock
 if userChoice == "Rock" and compsChoice == "Paper":
-    print("Lose")
-if userChoice == "Paper" and compsChoice == "Rock":
+    print("Loose")
+if userChoice == "Rock" and compsChoice == "Scissors":
     print("Win")
     
-if userChoice == "Siccors" and compsChoice == "Paper":
+if userChoice == "Scissors" and compsChoice == "Paper":
     print("Win")
-if userchoice == "Siccors" and compsChoice == "Rock":
+if userchoice == "Scissors" and compsChoice == "Rock":
+    print("Loose")
+
+#Added if the computer or the player chooses Paper
+
+if userChoice == "Paper" and compsChoice == "Rock":
+    print("Win")
+if userChoice == "Paper" and compsChoice == "Scissors":
     print("Loose")
